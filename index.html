@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+//Question no:1
+var num = +prompt("Put positive Number")
+var num1 = Math.round(num)
+var num2 = Math.floor(num)
+var num3 = Math.ceil(num)
+
+
+document.write("Number : "+num);
+document.write("<br>");
+document.write("round of value : "+num1);
+document.write("<br>");
+document.write("floor value : "+num2);
+document.write("<br>");
+document.write("ceil value : "+num3);
+//Question no:1 end
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+
+//Question no:2
+var num4 = +prompt("Put negetive Number")
+var num5 = Math.round(num4)
+var num6 = Math.floor(num4)
+var num7 = Math.ceil(num4)
+
+
+document.write("Number : "+num4);
+document.write("<br>");
+document.write("round of value : "+num5);
+document.write("<br>");
+document.write("floor value : "+num6);
+document.write("<br>");
+document.write("ceil value : "+num7);
+
+//Question no:2 end
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+
+//Question no:3
+var absol = +prompt("put any number")
+var aa = Math.abs(absol)
+
+document.write("The absolute value of "+absol+" is "+aa)
+//Question no:3 end
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+//Question no:4
+var new1 ="random number dice "+Math.round(Math.random()*9);
+document.write(new1);
+//Question no:4 end
+
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+//Question no:5
+
+var coin =Math.random()
+var coin1 = (coin < 0.5) ? "tails" : " heads";
+console.log(coin1);
+
+//Question no:5 end
+
+
+//Question no:6
+var aaa ="random number between 1 to 100 : "+Math.ceil(Math.random()*100);
+console.log(aaa);
+//Question no:6 end
+
+
+//Question no:7
+var weight = +prompt("Put your weight")
+document.write("Your weight is "+weight +"kg")
+
+//Question no:7 end
+
+document.write("<br>");
+
+//Question no:8
+var com = Math.floor(Math.random()*10)+1
+var user = +prompt("put number 1 to 10")
+
+if(com==user){
+    document.write("Congratulations")
+}
+else{
+    document.write("not match")
+}
+
+//Question no:8 end
+</script>
+
+</body>
+</html>
